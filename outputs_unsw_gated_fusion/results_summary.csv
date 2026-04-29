@@ -1,0 +1,7 @@
+Model,Accuracy (%),Recall (%),F1-Score (%),Precision (%),FAR (%),Latency (ms)
+Decision Tree,55.59,55.59,56.54,58.16,4.9863,0.0014
+XGBoost,59.07,59.07,59.63,61.48,4.5958,0.0090
+Gated Image-Tabular Fusion,34.85,34.85,26.54,25.84,7.3144,0.5161
+Random Forest,55.27,55.27,55.28,56.33,5.0229,0.0458
+LightGBM,58.74,58.74,59.23,60.78,4.6327,0.0155
+Late Fusion Ensemble,60.04,60.04,60.14,64.01,4.4845,0.5406

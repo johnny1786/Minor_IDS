@@ -1,0 +1,23 @@
+{
+  "pipeline": "gated_image_tabular_fusion_train_only_wcgan",
+  "dataset_file": "data/UNSW_NB15.csv",
+  "output_dir": "outputs_unsw_gated_fusion",
+  "wcgan_epochs": 20,
+  "cnn_epochs": 25,
+  "focal_gamma": 2.0,
+  "label_smoothing": 0.04,
+  "fusion_weights": {
+    "xgboost": 0.4,
+    "lightgbm": 0.4,
+    "gated_fusion": 0.2
+  },
+  "test_policy": "stratified natural holdout before synthetic oversampling",
+  "models": [
+    "Decision Tree",
+    "XGBoost",
+    "Gated Image-Tabular Fusion",
+    "Random Forest",
+    "LightGBM",
+    "Late Fusion Ensemble"
+  ]
+}
