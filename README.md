@@ -97,10 +97,3 @@ Specify your preferred license (e.g., MIT). Update this section with the chosen 
 ## Contact
 Add author/maintainer contact information here.
 
----
-
-If you want, I can now:
-- generate a `requirements.txt` from the environment,
-- add a short `run_example.sh` script that runs one dataset with a sample config, or
-- extract and incorporate specific figures/tables from `/Users/johnson/Downloads/report.pdf` into a `docs/` folder.
-Tell me which option you prefer.
